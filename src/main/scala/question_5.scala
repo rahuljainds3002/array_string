@@ -4,7 +4,7 @@ object question_5
   var arr: Array[Int]  = Array(1,2,3,4,5)
   var arr2: Array[Int]  = Array(6,7,8,9,10)
   var arr3 :Array[Int] = new Array[Int](20)
-  var i = (arr.length + arr2.length)
+  var i = arr.length + arr2.length
   for(j<-0 until arr.length)
   {
     arr3(j) = arr(j)
